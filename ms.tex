@@ -1,0 +1,14 @@
+\documentclass[letter]{article}
+\pdfoutput=1
+\usepackage{hyperref}
+\hypersetup{
+  pdfinfo={
+    Title={awesome-title},
+    Author={Chakkrit Tantithamthavorn},
+  }
+}
+\usepackage{pdfpages}
+
+\begin{document}
+\includepdf[pages=1-last]{awesome-paper.pdf}
+\end{document}
